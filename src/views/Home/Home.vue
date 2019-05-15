@@ -5,6 +5,7 @@
         <swiper class="animated fadeInDown" dots-position="center" height="200px" :auto=true>
             <swiper-item class="Home-banner" @click.native="goxq(item)" v-for="(item,index) in headbanner" :key="index" :style='"background:url("+item.url+");background-repeat:no-repeat;background-position:center;background-size: cover;"'></swiper-item>
         </swiper>
+		<div></div>
         <div id="demo" style="display:none"></div>
         <div class="Home-flexbox-top">
             <flexbox class="Home-flexbox-topBox">
